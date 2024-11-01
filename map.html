@@ -3,10 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Google Maps Api</title>
-  <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="acme_regular_macroman/stylesheet.css">
-  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script>
   <script async type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
@@ -23,8 +20,11 @@
       </ul>
     </div>
   </nav>
-  <div id="wrapper">
-    <div id="canvas"></div>
+  <div id="wrapper1">
+    <div id="map"></div>
+    <script async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIWGeBWMq1N3gGBBltdTBS1D953KC2S0o&loading=async&callback=initMap">
+    </script>
   </div>
   <footer id="footer">
     <p>Created by Thein Han</p>

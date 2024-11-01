@@ -235,7 +235,7 @@ iframe {
   text-decoration: none;
 }
 
-#wrapper {
+#wrapper1 {
   width: 850px;
   height: 700px;
   background-color: #fff;
@@ -243,9 +243,10 @@ iframe {
   overflow: hidden;
 }
 
-#canvas {
+#map {
   width: 800px;
   height: 650px;
   background-color: #ccc;
   margin: 25px auto;
 }
+
