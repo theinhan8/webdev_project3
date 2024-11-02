@@ -284,3 +284,24 @@ iframe {
   background-color: #ccc;
   margin: 25px auto;
 }
+
+.slideshow {
+  max-width: 850px;
+  margin: 0 auto;
+  padding-top: 1em;
+}
+
+.slideshow ul {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.slideshow ul li {
+  text-align: center;
+}
+
+.slideshow ul li img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
