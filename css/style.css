@@ -205,24 +205,37 @@ a:hover #img1,a:focus #img1 {
 }
 
 @media screen and (min-width: 600px) {
-  
+  #main-nav ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  #main-nav ul li a {
+    padding: 0.5em;
+    font-size: 1.2em;
+  }
+
+  #page-wrapper {
+    width: 90%;
+    margin: auto;
+  }
 }
 
-@media screen and (min-width: 900px) {
-  main#main-page {
-  background-color: #9E9E9E;
-  padding: 1em;
-  color: #fff;
+@media screen and (min-width: 1000px) {
+  nav#main-nav ul li {
+    display: inline-block;
+    margin: 0 1em;
   }
-  body {
-    font-size: 1.5em;
+
+  #main-page {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
   }
-  nav#main-nav ul li a{
-    padding: 0em;
-    font-size: 1.5em;
-  }
-  .leftcolumn, .rightcolumn {
-    font-size: .8em;
+  
+  #selfie img {
+    float: right;
+    margin: 1em;
   }
 }
 
